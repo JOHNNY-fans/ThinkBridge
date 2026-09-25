@@ -1,0 +1,34 @@
+{
+  "fp16": {
+    "enabled": false
+  },
+  "bf16": {
+    "enabled": false
+  },
+  "torch_autocast": {
+    "enabled": true,
+    "dtype": "bfloat16",
+    "lower_precision_safe_modules": []
+  },
+  "communication_data_type": "fp32",
+  "zero_optimization": {
+    "stage": 1,
+    "offload_optimizer": {
+      "device": "none",
+      "pin_memory": false
+    },
+    "allgather_partitions": true,
+    "allgather_bucket_size": 200000000,
+    "overlap_comm": false,
+    "reduce_scatter": true,
+    "reduce_bucket_size": 200000000,
+    "contiguous_gradients": true
+  },
+  "zero_allow_untested_optimizer": true,
+  "gradient_accumulation_steps": "auto",
+  "gradient_clipping": 0.0,
+  "steps_per_print": 2000,
+  "train_batch_size": "auto",
+  "train_micro_batch_size_per_gpu": "auto",
+  "wall_clock_breakdown": false
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "question": "John cuts his grass to 2 inches.  It grows .5 inches per month.  When it gets to 4 inches he cuts it back down to 2 inches.  It cost $100 to get his grass cut.  How much does he pay per year?",
+    "cot": "He cuts his grass 4-2=2 inches So he gets it cut every 2/.5=4 months That means he gets it cut 12/4=3 times a year So he pays 100*3=$300 per year",
+    "steps": [
+      "He cuts his grass 4-2=2 inches",
+      "So he gets it cut every 2/.5=4 months",
+      "That means he gets it cut 12/4=3 times a year",
+      "So he pays 100*3=$300 per year"
+    ],
+    "answer": "300"
+  },
+  {
+    "question": "Hannah has three dogs. The first dog eats 1.5 cups of dog food a day. The second dog eats twice as much while the third dog eats 2.5 cups more than the second dog. How many cups of dog food should Hannah prepare in a day for her three dogs?",
+    "cot": "The second dog eats 1.5 x 2 = 3 cups of dog food. The third dog eats 3 + 2.5 = 5.5 cups. So, Hannah should prepare 1.5 + 3 + 5.5 = 10 cups.",
+    "steps": [
+      "The second dog eats 1.5 x 2 = 3 cups of dog food.",
+      "The third dog eats 3 + 2.5 = 5.5 cups.",
+      "So, Hannah should prepare 1.5 + 3 + 5.5 = 10 cups."
+    ],
+    "answer": "10"
+  },
+  {
+    "question": "Travis wants to fly to Australia. The regular tickets cost about $2000. As Travis is a student, he will get a 30% discount on this price. How much does he need to pay for his ticket?",
+    "cot": "The discount on the ticket is 30/100 * $2000 = $600. So Travis needs to pay $2000 - $600 = $1400.",
+    "steps": [
+      "The discount on the ticket is 30/100 * $2000 = $600.",
+      "So Travis needs to pay $2000 - $600 = $1400."
+    ],
+    "answer": "1400"
+  },
+  {
+    "question": "A set of 7 spoons costs $21. If each spoon would be sold separately, how much would 5 spoons cost?",
+    "cot": "A set of 7 spoons costs $21, so one spoon from the set costs 21 / 7 = $3. So if sold separately, 5 spoons would cost 5 * 3 = $15.",
+    "steps": [
+      "A set of 7 spoons costs $21, so one spoon from the set costs 21 / 7 = $3.",
+      "So if sold separately, 5 spoons would cost 5 * 3 = $15."
+    ],
+    "answer": "15"
+  },
+  {
+    "question": "Tom bought his games for $200.  They tripled in value and he then sold 40% of them.  How much did he sell the games for?",
+    "cot": "The value of the games increased to 200*3=$600 So he sold 600*. 4=$240 worth of games",
+    "steps": [
+      "The value of the games increased to 200*3=$600 So he sold 600*.",
+      "4=$240 worth of games"
+    ],
+    "answer": "240"
+  },
+  {
+    "question": "Maggie went to Lou's aquarium and saw 100 goldfish in the aquarium. She asked if she could take some home to care for, and she was allowed to catch half of them. While using a catching net, she caught 3/5 of the total number of goldfish she was allowed to take home. How many goldfish does Maggie remain with to catch to get the total number she was allowed to take home?",
+    "cot": "Maggie was allowed to take half of the goldfish in the aquarium, a total of 1/2*100 = 50 goldfish On her first catch, Maggie got 3/5*50 = 30 goldfish. To reach the number of goldfish she was allowed to take home, Maggie has to catch 50-30 = 20 more goldfish.",
+    "steps": [
+      "Maggie was allowed to take half of the goldfish in the aquarium, a total of 1/2*100 = 50 goldfish",
+      "On her first catch, Maggie got 3/5*50 = 30 goldfish.",
+      "To reach the number of goldfish she was allowed to take home, Maggie has to catch 50-30 = 20 more goldfish."
+    ],
+    "answer": "20"
+  },
+  {
+    "question": "Kenny played basketball last week. He ran for twice as long as he played basketball, and he practiced on the trumpet for twice as long as he ran. If he practiced on the trumpet for 40 hours, how many hours did Kenny play basketball last week?",
+    "cot": "Kenny ran for 40/2=20 hours. Kenny played basketball for 20/2=10 hours.",
+    "steps": [
+      "Kenny ran for 40/2=20 hours.",
+      "Kenny played basketball for 20/2=10 hours."
+    ],
+    "answer": "10"
+  },
+  {
+    "question": "Marcia wants to buy some fruit. Apples cost $2, bananas cost $1, and oranges cost $3. If Marcia buys 12 apples, 4 bananas and 4 oranges, what is the average cost of each piece of fruit in dollars?",
+    "cot": "Find the price of each group of fruit 12 apples * $2 per apple = $24 4 bananas * $1 per banana = $4 3 oranges * $4 per orange = $12 $24 + $4 + $12 = $40 in total that was spent 12 + 4 + 4 = 20 total fruits bought $40 / 20 fruits = $2 per fruit",
+    "steps": [
+      "Find the price of each group of fruit 12 apples * $2 per apple = $24 4 bananas * $1 per banana = $4 3 oranges * $4 per orange = $12 $24 + $4 + $12 = $40 in total that was spent 12 + 4 + 4 = 20 total fruits bought $40 / 20 fruits = $2 per fruit"
+    ],
+    "answer": "2"
+  }
+]

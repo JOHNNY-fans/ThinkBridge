@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "think-bridge"
+version = "1.0.0"
+description = "Latent reasoning with a frozen language model"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+dependencies = ["torch>=2.11,<2.12", "transformers>=5.8,<5.13", "accelerate>=1.0", "safetensors>=0.4", "numpy>=1.24", "pyyaml>=6.0", "packaging>=23", "tensorboard>=2.14", "tqdm>=4.66", "math-verify==0.9.0"]
+
+[project.optional-dependencies]
+train = ["deepspeed==0.17.6", "vllm==0.23.0"]
+
+[project.scripts]
+think-bridge = "think_bridge.cli.main:cli_main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["think_bridge*"]
+
+[tool.setuptools.package-data]
+think_bridge = ["py.typed", "configs/*.yaml", "configs/*.json"]
